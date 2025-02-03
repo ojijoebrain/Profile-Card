@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card - Oji Joseph Oji</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-card">
+        <img src="./asset/profile-pic.jpg" alt="Profile Picture" class="profile-img" data-testid="profilePicture">
+        <h2 data-testid="fullName">Oji Joseph Oji</h2>
+        <p class="job-title" data-testid="jobTitle">Frontend Developer</p>
+        <p class="bio" data-testid="shortBio">
+            Passionate about building responsive web applications that enhance user experiences.
+            Always learning and improving my frontend development skills.
+        </p>
+        <p class="location" data-testid="currentLocation">Kano, Nigeria</p>
+        <p class="email" data-testid="emailAddress">ojijosephoji@gmail.com</p>
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://www.linkedin.com/in/oji-joseph-oji-b41023168/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/ojijoebrain" target="_blank">GitHub</a>
+        </div>
+        <p class="utc-time" data-testid="currentTimeUTC">UTC Time: <span id="utc-time"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
